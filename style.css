@@ -18,6 +18,7 @@
 .btn:hover{
     background: grey;
     border: 1px solid white;
+    transition-duration: 0.5s;
 }
 
 /* commom css end */
@@ -50,7 +51,7 @@
 #banner{
     width: 100%;
     height: 100vh;
-    background: url(./assets/hero-bg.png);
+    background-image: linear-gradient(rgba(0, 0, 1, 0.244)), url(./assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
@@ -75,6 +76,7 @@
 .banner_btn:hover{
     background: transparent;
     border: 1px solid white;
+    transition-duration: 0.5s;
 }
 .banner-text h1{
     color: white;
