@@ -50,13 +50,15 @@
 /* banner css start */
 #banner{
     width: 100%;
-    height: 100vh;
+    height: 87vh;
     background-image: linear-gradient(rgba(0, 0, 1, 0.244)), url(./assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    display: flex;
-    align-items: center;
+}
+.banner-container{
+    padding-top: 9%;
 }
 .banner-btn{
     color: #30B868;
