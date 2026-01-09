@@ -152,11 +152,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 120px ;
-    gap: 60px;
+    gap: 90px;
 }
 .knowledge-image img{
-    height: 450px;
-    width: 450px;
+    height: 600px;
+    width: 600px;
 }
 .knowledge-text h4{
     color: #30B868;
@@ -173,7 +173,6 @@
     font-size: 48px;
     font-weight: bold;
     padding-top: 10px;
-
 }
 .knowledge-text p, #think p{
     padding: 16px 0;
@@ -193,7 +192,7 @@
 /* Think css Start */
 #think{
     background-color: #F7F6F2;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     text-align: center;
     align-items: center;
